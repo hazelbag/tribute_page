@@ -1,0 +1,174 @@
+/* General */
+
+body {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  background-color: #000000;
+  color: rgb(22, 226, 223);
+}
+
+h1,
+h2 {
+  font-family: "Pragati Narrow", serif;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0 auto;
+  color: rgb(22, 226, 223);
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(22, 226, 223);
+}
+
+a:hover {
+  color: rgb(169, 167, 167);
+}
+
+.hidden {
+  display: none;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.shadow-box {
+  padding: 1rem;
+  box-shadow: 0 0 1px 1px black;
+  border-radius: 0.5rem;
+  width: 85%;
+  text-align: center;
+}
+
+.secondary-background {
+  background-color: rgb(43, 43, 43);
+  color: rgb(22, 226, 223);
+}
+
+/* Header */
+header {
+  position: fixed;
+  width: 100%;
+  background-color: rgb(43, 43, 43);
+}
+
+header p {
+  margin: 0;
+}
+
+address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+address p {
+  padding-right: 2rem;
+}
+
+address .gitlab {
+  padding-right: 5px;
+}
+
+.subheader {
+  margin-bottom: 1rem;
+  color: rgb(22, 226, 223);
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* Main Image */
+
+.main-image {
+  padding-top: 10rem;
+}
+
+figure {
+  width: 75%;
+  padding: 0.5rem 0.5rem 0 0.5rem;
+  box-shadow: 0 0 1px 1px black;
+}
+
+img {
+  max-width: 100%;
+}
+
+figcaption {
+  margin: 0.5rem;
+}
+
+figcaption p {
+  margin: 0 auto;
+}
+
+/* Info Section */
+.info-item {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  width: 80%;
+  border-left: 0.25rem solid rgb(226, 223, 223);
+}
+
+/* Quote Section */
+.quote {
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+blockquote {
+  margin: 1rem 0;
+}
+
+/* More Info Section */
+.more-info {
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* Media Queries */
+
+@media only screen and (min-width: 61.25rem) {
+  .container {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .shadow-box {
+    width: 20%;
+    margin-top: 1rem;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  .subheader {
+    font-size: 1.5rem;
+  }
+
+  .main-image {
+    padding-top: 15rem;
+  }
+
+  .info-item {
+    width: 60%;
+  }
+}
